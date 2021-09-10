@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'limanmys/ilkeklentim',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'icewind/smb' => array(
+            'pretty_version' => 'v3.4.1',
+            'version' => '3.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../icewind/smb',
+            'aliases' => array(),
+            'reference' => '9dba42ab2a3990de29e18cc62b0a8270aceb74e3',
+            'dev_requirement' => false,
+        ),
+        'icewind/streams' => array(
+            'pretty_version' => 'v0.7.5',
+            'version' => '0.7.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../icewind/streams',
+            'aliases' => array(),
+            'reference' => '0c6aae16ebdadb257f0bd089c1e1e4cf5e20ddc2',
+            'dev_requirement' => false,
+        ),
+        'limanmys/ilkeklentim' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);
